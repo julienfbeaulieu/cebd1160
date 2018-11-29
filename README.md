@@ -27,12 +27,12 @@ The scripts can also be run using [docker-airflow](https://github.com/konstantin
 
 ## Process
 Here is a description of the python scripts:
-| Script             | Description |
-| ------------------ | ----------- |
-| load_database.py   | Parse exiobase2 with pymrio package. Perform matrix operations to calculate consumption-based 
-environmental footprint of sectors and countries |
-| analyse_results.py | Data exploration of results. Calculation of the environmental footprint associated with 
-canadian consumption |
+Script | Description 
+--- | --- 
+load_database.py | Parse exiobase2 with pymrio package. Perform matrix operations to calculate consumption-based 
+environmental footprint of sectors and countries
+analyse_results.py | Data exploration of results. Calculation of the environmental footprint associated with 
+canadian consumption
 
 If you run the scripts, make sure to adapt the 'PATH' constant to your setting.
 
